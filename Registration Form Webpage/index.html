@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register Yourself</h1>
+        <form>
+            <fieldset>
+                <table>
+                    <tr>
+                        <th><label for="name" class="labels">Name</label></th>
+                        <td><input type="text" id="name" placeholder="Enter your name"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="password" class="labels">Password</label></th>
+                        <td><input type="password" id="password"  placeholder="Enter your password"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="address" class="labels">Address</label></th>
+                        <td><textarea id="address"  placeholder="Enter your address here"></textarea></td>
+                    </tr>
+                    <tr>
+                        <th><label for="game" class="labels">Game</label></th>
+                        <td><input type="text" id="game" placeholder="Enter your favourite game"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="gender" class="labels">Gender </label></th>
+                        <td>
+                            <input type="radio" name="gender">Male
+                            <input type="radio" name="gender">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="age" class="label">Age</label></th>
+                        <td>
+                            <select id="age">
+                                <option>Below 10</option>
+                                <option>10-15</option>
+                                <option>16-20</option>
+                                <option>21-25</option>
+                                <option>26-30</option>
+                                <option>31-35</option>
+                                <option>>35</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="profile-img" class="labels">Add Profile Image</label></th>
+                        <td><input type="file" id="profile-img" placeholder="Choose your profile picture"></td>
+                    </tr>
+                    <tr class="btn-row">
+                        <th colspan="2">
+                            <div>
+                                <div><input class="buttons" type="button" value="Save Form"></div>
+                                <div><input class="buttons" type="reset" value="Reset"></div>
+                                <div><input class="buttons" type="submit" value="Submit Form"></div>
+                            </div>
+                        </th>
+                    </tr>
+                    <!-- <tr class="btn-row">
+                        <th colspan="2"><input class="buttons" type="reset" value="Reset"></th>
+                    </tr>
+                    <tr class="btn-row">
+                        <th colspan="2"><input class="buttons" type="submit" value="Submit Form"></th>
+                    </tr> -->
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

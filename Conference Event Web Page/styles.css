@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f3ee url('images/bg-tile.gif') top left repeat;
+}
+
+header, footer {
+    height: 10vh;
+    width: 100%;
+    background: #333 url('images/bg-tile-brown.gif') top left repeat;
+    color: #f2f3ee;
+}
+
+#topbar {
+    height: 10vh;
+}
+
+#register {
+    display: block;
+    float: right;
+    height: 6vh;
+    margin: 2vh;
+    padding: 1.5vh;
+    background-color: rgb(3, 172, 3);
+    color: #f2f3ee;
+    font-weight: bold;
+}
+
+#register:hover {
+    background-color: green;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #333;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: .5rem 1rem;
+    color: #f2f3ee; 
+}
+
+#venue-list {
+    margin: 1rem 2rem;
+}
+
+#venue-list table {
+    width: 100%; 
+    border: .2rem outset #333;  
+}
+
+#venue-list table thead th {
+      text-align: center;
+      font-size: 1.2rem;
+      padding: .3rem;
+      border: .2rem outset #b47034; 
+      background-color: #333; 
+      color: #f2f3ee;
+}
+
+#venue-list table tbody td {
+    text-align: left;
+    font-size: 1rem;
+    padding: .3rem;
+    border: .1rem outset #333;  
+}
+
+.about-venues {
+    align-content: center;
+    background-color: #b47034;
+    margin: 1rem 2rem;
+    border: .2rem dashed #4b2707;
+}
+
+.about-venues:hover {
+    background-color: #d17f38;
+}
+
+.about-venues p {
+    margin: .5rem 1rem;
+    color: rgb(71, 7, 7);
+}
+
+@media screen and (max-width: 640px) {
+    
+    .about-guest {
+        margin: 1rem 2rem;
+        background-color: #333;
+        color: #f2f3ee;
+    }
+
+    .about-guest img {
+        display: block;
+        border-radius: 1rem ;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .about-guest p {
+        font-size: 1rem;
+        text-align: justify;
+        align-content: center;
+        padding: 2rem;
+        padding-top: 0;
+    }
+    
+}
+
+@media screen and (min-width: 640px) {
+    .about-guest {
+        display: flex;
+        margin: 1rem 2rem;
+        background-color: #333;
+        color: #f2f3ee;
+    }
+    
+    .about-guest img {
+        border-radius: 1rem ;
+        padding: 2rem;
+    }
+    
+    .about-guest p {
+        font-size: 1rem;
+        text-align: justify;
+        align-content: center;
+        padding: 2rem;
+    }
+    
+    .about-guest p em {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    
+}
+
+#accomodations div p {
+    text-align: center;
+    font: 1.2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+footer{
+    align-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    
+    .about-guest {
+        margin: 1rem 2rem;
+        background-color: #333;
+        color: #f2f3ee;
+    }
+
+    .about-guest img {
+        display: block;
+        border-radius: 1rem ;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .about-guest p {
+        font-size: 1rem;
+        text-align: justify;
+        align-content: center;
+        padding: 2rem;
+        padding-top: 0;
+    }
+    
+}
+
+@media screen and (min-width: 640px) {
+    .about-guest {
+        display: flex;
+        margin: 1rem 2rem;
+        background-color: #333;
+        color: #f2f3ee;
+    }
+    
+    .about-guest img {
+        border-radius: 1rem ;
+        padding: 2rem;
+    }
+    
+    .about-guest p {
+        font-size: 1rem;
+        text-align: justify;
+        align-content: center;
+        padding: 2rem;
+    }
+    
+    .about-guest p em {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    
+}
+
+
+
+
+
+
+
+

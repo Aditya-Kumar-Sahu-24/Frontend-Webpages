@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background: #f2f3ee url('images/bg-tile.gif') top left repeat;
+}
+
+h1  {
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    background: url('images/header-divider.png') bottom center no-repeat;
+}
+
+.container {
+    display: block;
+    margin:10px auto;
+    width: 500px;
+}
+
+form {
+    background: #e8c04f url('images/bg-tile-yellow.gif') top left repeat;
+}
+
+form fieldset {
+    border: 2.5px dashed #4b2707;
+}
+
+table tr {
+   display: flex;
+}
+
+table tr th {
+    text-align: left;
+    width: 200px;
+    margin: 10px 20px;
+}
+
+table tr td input[type='text'], table tr td input[type='password'], table tr td input[type='file'], table tr td textarea {
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #f2f3ee url('images/bg-tile.gif') top left repeat;
+}
+
+select {
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    width: 232px;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #f2f3ee url('images/bg-tile.gif') top left repeat;
+}
+
+table tr td textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+table tr td input[type='radio'] {
+    margin: 10px;
+    color: #4b2707;
+}
+
+.btn-row th div {
+    display: flex;
+}
+
+.btn-row th div div {
+    margin: 10px 25px;
+}
+ 
+
+.buttons {
+    padding: 5px;
+    width: 100px;
+    background: #4b2707;
+    color: #f2f3ee;
+}
